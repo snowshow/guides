@@ -167,6 +167,7 @@ To declare a many-to-many relationship between two models, use
 export default DS.Model.extend({
   tags: DS.hasMany('tag')
 });
+```
 
 ```app/models/tag.js
 export default DS.Model.extend({
